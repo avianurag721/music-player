@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    overflow: hidden;
+}
+.main{
+    background: url(./spotify/bg.jpg) no-repeat ;
+    background-size: cover;
+    
+    
+}
+#masterPlay{
+    cursor: pointer;
+}
+#giphy{
+    opacity: 0;
+    transition: all 0.2s ease-in;
+}
+.songs{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red ; */
+    border-radius: 10px;
+    background:linear-gradient(rgb(103, 103, 195),black) ;
+}
+.songItem{
+    background:linear-gradient(to right, rgb(103, 103, 195),black) ;
+   
+}
